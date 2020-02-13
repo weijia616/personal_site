@@ -8,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
       <!-- logo -->
       <div class="navbar-brand">
         <a class="navbar-item">
-          <img src="assets/img/logo.png">
+          <img src="assets/img/logo.png" alt="" />
         </a>
       </div>
+
+      <!-- menu -->
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" routerLink="">Home</a>
+          <a class="navbar-item" routerLink="contact">Contact</a>
+        </div>
+      </div>
+
+
+      
+      
     </nav>
   `,
   styles: []
