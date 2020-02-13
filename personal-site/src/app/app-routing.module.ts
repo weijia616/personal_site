@@ -12,6 +12,10 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent,
+  },
+  {
+    path: 'projects',
+    loadChildren: 'app/projects/projects.module#ProjectsModule', // tell Angular should load all the assets in ProjectsModule when we visit this route.
   }
 ];
 
