@@ -7,18 +7,16 @@ import { Component, OnInit } from '@angular/core';
       <div class="hero-body">
         <div class="container">
 
-          <h1 class="title">Home Page!</h1>
+          <h1 class="title">Welcome to my place</h1>
 
         </div>
       </div>
     </section>
   `,
   styles: [`
-    .hero {
-      background: url("/assets/img/bg-img.jpg") center center no-repeat !important;
-      background-size: cover;
-    }
-  `]
+    
+  `],
+  styleUrls: ['./home-app.component.css']
 })
 export class HomeComponent implements OnInit {
 
