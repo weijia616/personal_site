@@ -22,7 +22,10 @@
         "styles.scss",
         "../node_modules/bulma/css/bulma.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.js",
+        "assets/js/home.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
