@@ -3,15 +3,16 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home',
   template: `
-    <section class="hero is-info is-fullheight is-bold">
+    <section id="welcome_section" class="hero is-fullheight">
       <div class="hero-body">
         <div class="container">
 
-          <h1 class="title">Welcome to my place</h1>
+          <h1 class="title dosis-font">Welcome to my place</h1>
 
         </div>
       </div>
     </section>
+    <app-resume></app-resume>
   `,
   styles: [`
     

@@ -12,13 +12,15 @@ import {FormsModule} from "@angular/forms";
 import {UserService} from "./core/service/user.service";
 import {HttpClientModule} from "@angular/common/http";
 import {CoreModule} from "./core/core.module";
+import { ResumeComponent } from './components/resume/resume.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,

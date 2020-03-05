@@ -1,10 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
-.hero {
+$main_light_grey: #DDD;
+$main_dark_grey: #555;
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#welcome_section {
   background: url("/assets/img/bg-img.jpg") center center no-repeat !important;
   background-size: cover;
 }
 h1.title {
-  font-family: fantasy;
+  color: $main_light_grey;
+}
+
+.dosis-font {
+  font-family: 'Dosis', sans-serif;
+}
+
+.lato-font {
+  font-family: 'Lato', sans-serif;
+}
+
+h1.section-title {
+  font-size: 3em;
+}
+
+h2.section-subtitle {
+  font-size: 2em;
+}
+
+.section-text {
+  font-size: 24px;
 }
 
 #back2Top {
@@ -22,13 +49,24 @@ h1.title {
   position: fixed;
   bottom: 50px;
   right: 0;
-  background-color: #DDD;
-  color: #555;
+  background-color: $main_light_grey;
+  color: $main_dark_grey;
   text-align: center;
   font-size: 30px;
   text-decoration: none;
 }
 #back2Top:hover {
-  background-color: #555;
-  color: #DDD;
+  background-color: $main_dark_grey;
+  color: $main_light_grey
+}
+
+#about_me_section {
+  background-color: $main_light_grey;
+  padding: 10vw;
+
+  text-align: center;
+
+  h1 {
+
+  }
 }
