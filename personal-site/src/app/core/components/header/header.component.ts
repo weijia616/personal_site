@@ -16,8 +16,9 @@ import { Component, OnInit } from '@angular/core';
       <div class="navbar-menu">
         <div class="navbar-start">
           <a class="navbar-item" routerLink="">Home</a>
-          <a class="navbar-item" routerLink="projects">Projects</a>
-          <a class="navbar-item" routerLink="users">Users</a>
+          <a class="navbar-item" href="#about_me_section">About me</a>
+<!--          <a class="navbar-item" routerLink="projects">Projects</a>-->
+<!--          <a class="navbar-item" routerLink="users">Users</a>-->
           <a class="navbar-item" routerLink="contact">Contact</a>
         </div>
       </div>

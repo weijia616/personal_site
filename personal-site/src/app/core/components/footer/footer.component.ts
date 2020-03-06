@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
       <div class="container">
         <div class="content has-text-centered">
           <p>
-            Design by Viga@2020
+            Design by Vega@2020
           </p>
         </div>
       </div>
