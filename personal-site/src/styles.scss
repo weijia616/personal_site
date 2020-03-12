@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 $main_light_grey: #DDD;
 $main_dark_grey: #555;
+$main_vintage_yellow: #F9B127;
+
+$section_default_padding: 10vw;
 
 html {
   scroll-behavior: smooth;
@@ -13,9 +16,12 @@ body {
 #welcome_section {
   background: url("/assets/img/bg-img.jpg") center center no-repeat !important;
   background-size: cover;
-}
-h1.title {
-  color: $main_light_grey;
+
+  .main-title {
+    color: $main_vintage_yellow;
+    font-family: fantasy;
+    font-size: 3rem;
+  }
 }
 
 .dosis-font {
@@ -66,11 +72,7 @@ h2.section-subtitle {
 
 #about_me_section {
   background-color: $main_light_grey;
-  padding: 10vw;
+  padding: $section_default_padding;
 
   text-align: center;
-
-  h1 {
-
-  }
 }
